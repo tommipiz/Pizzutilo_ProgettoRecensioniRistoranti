@@ -2,13 +2,16 @@
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Login</h2>
-    <form action="scriptlogin.php" method="post">
-        Username: <input type="text" name="username" required><br>
-        Password: <input type="password" name="password" required><br>
-        <input type="submit" value="Login">
-    </form>
+    <div class="login-container" >
+        <form action="scriptlogin.php" method="post">
+            <h2>Login</h2> <br>
+            Username: <input type="text" name="username" required><br>
+            Password: <input type="password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
 </html>
